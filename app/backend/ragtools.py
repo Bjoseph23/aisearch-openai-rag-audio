@@ -6,7 +6,7 @@ from azure.identity import DefaultAzureCredential
 from azure.search.documents.aio import SearchClient
 from azure.search.documents.models import VectorizableTextQuery
 
-from rtmt import RTMiddleTier, Tool, ToolResult, ToolResultDirection
+from .rtmt import RTMiddleTier, Tool, ToolResult, ToolResultDirection
 
 _search_tool_schema = {
     "type": "function",
